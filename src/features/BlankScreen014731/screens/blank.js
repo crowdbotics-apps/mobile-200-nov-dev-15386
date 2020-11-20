@@ -23,10 +23,10 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { TextInput_3: "jhgjhgjgjgj" }
+  state = { TextInput_3: "jhgjhgjgjgj", Switch_4: true, TextInput_5: "" }
 
   render = () => (
-    <View>
+    <ImageBackground>
       <Text style={styles.Text_2}>Sample text content</Text>
       <TextInput
         placeholder="Sample text input placeholder"
@@ -34,7 +34,18 @@ export default class Blank extends React.Component {
         value={this.state.TextInput_3}
         onChangeText={nextValue => this.setState({ TextInput_3: nextValue })}
       />
-    </View>
+      <Switch
+        trackColor={{ false: "#C0CCDA", true: "#409EFF" }}
+        style={styles.Switch_4}
+        value={this.state.Switch_4}
+        onValueChange={nextChecked => this.setState({ Switch_4: nextChecked })}
+      />
+      <TextInput
+        placeholder="Sample text input placeholder"
+        value={this.state.TextInput_5}
+        onChangeText={nextValue => this.setState({ TextInput_5: nextValue })}
+      />
+    </ImageBackground>
   )
 }
 
@@ -52,5 +63,10 @@ const styles = StyleSheet.create({
   TextInput_3: { width: 100, alignSelf: "flex-end" },
   View_1: {},
   Text_2: { alignSelf: "flex-end" },
-  TextInput_3: { width: 100, alignSelf: "flex-end", textAlign: "right" }
+  TextInput_3: { width: 100, alignSelf: "flex-end", textAlign: "right" },
+  ImageBackground_1: {},
+  Text_2: { alignSelf: "flex-end" },
+  TextInput_3: { width: 100, alignSelf: "flex-end", textAlign: "right" },
+  Switch_4: { alignSelf: "flex-start" },
+  TextInput_5: {}
 })
