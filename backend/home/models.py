@@ -77,9 +77,123 @@ class CustomText(models.Model):
     def field(self):
         return "title"
 
+    def __str__(self):
+        return self.title
+
+    @property
+    def api(self):
+        return f"/api/v1/customtext/{self.id}/"
+
+    @property
+    def field(self):
+        return "title"
+
+    def __str__(self):
+        return self.title
+
+    @property
+    def api(self):
+        return f"/api/v1/customtext/{self.id}/"
+
+    @property
+    def field(self):
+        return "title"
+
+    def __str__(self):
+        return self.title
+
+    @property
+    def api(self):
+        return f"/api/v1/customtext/{self.id}/"
+
+    @property
+    def field(self):
+        return "title"
+
+    def __str__(self):
+        return self.title
+
+    @property
+    def api(self):
+        return f"/api/v1/customtext/{self.id}/"
+
+    @property
+    def field(self):
+        return "title"
+
+    def __str__(self):
+        return self.title
+
+    @property
+    def api(self):
+        return f"/api/v1/customtext/{self.id}/"
+
+    @property
+    def field(self):
+        return "title"
+
+    def __str__(self):
+        return self.title
+
+    @property
+    def api(self):
+        return f"/api/v1/customtext/{self.id}/"
+
+    @property
+    def field(self):
+        return "title"
+
 
 class HomePage(models.Model):
     body = models.TextField()
+
+    @property
+    def api(self):
+        return f"/api/v1/homepage/{self.id}/"
+
+    @property
+    def field(self):
+        return "body"
+
+    @property
+    def api(self):
+        return f"/api/v1/homepage/{self.id}/"
+
+    @property
+    def field(self):
+        return "body"
+
+    @property
+    def api(self):
+        return f"/api/v1/homepage/{self.id}/"
+
+    @property
+    def field(self):
+        return "body"
+
+    @property
+    def api(self):
+        return f"/api/v1/homepage/{self.id}/"
+
+    @property
+    def field(self):
+        return "body"
+
+    @property
+    def api(self):
+        return f"/api/v1/homepage/{self.id}/"
+
+    @property
+    def field(self):
+        return "body"
+
+    @property
+    def api(self):
+        return f"/api/v1/homepage/{self.id}/"
+
+    @property
+    def field(self):
+        return "body"
 
     @property
     def api(self):
@@ -139,14 +253,10 @@ class Gfdhgf(models.Model):
         null=True,
         blank=True,
     )
-    bvcbcbvc7678687868786 = models.BigIntegerField(
-        null=True,
-        blank=True,
-    )
     jjh = models.ForeignKey(
         "home.CustomText",
-        on_delete=models.CASCADE,
         null=True,
         blank=True,
+        on_delete=models.CASCADE,
         related_name="gfdhgf_jjh",
     )
