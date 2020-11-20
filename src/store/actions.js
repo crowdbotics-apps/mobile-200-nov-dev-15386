@@ -356,76 +356,91 @@ export const rest_auth_user_partial_updateFailed = (error, starter) => ({
   error,
   starter
 })
+
 export const api_v1_gfdhgf_list = () => ({ type: types.API_V1_GFDHGF_LIST })
 export const api_v1_gfdhgf_listSucceeded = (response, starter) => ({
   type: types.API_V1_GFDHGF_LIST_SUCCEEDED,
   response,
   starter
 })
+
 export const api_v1_gfdhgf_listFailed = (error, starter) => ({
   type: types.API_V1_GFDHGF_LIST_FAILED,
   error,
   starter
 })
+
 export const api_v1_gfdhgf_create = data => ({
   type: types.API_V1_GFDHGF_CREATE,
   data
 })
+
 export const api_v1_gfdhgf_createSucceeded = (response, starter) => ({
   type: types.API_V1_GFDHGF_CREATE_SUCCEEDED,
   response,
   starter
 })
+
 export const api_v1_gfdhgf_createFailed = (error, starter) => ({
   type: types.API_V1_GFDHGF_CREATE_FAILED,
   error,
   starter
 })
+
 export const api_v1_gfdhgf_read = () => ({ type: types.API_V1_GFDHGF_READ })
 export const api_v1_gfdhgf_readSucceeded = (response, starter) => ({
   type: types.API_V1_GFDHGF_READ_SUCCEEDED,
   response,
   starter
 })
+
 export const api_v1_gfdhgf_readFailed = (error, starter) => ({
   type: types.API_V1_GFDHGF_READ_FAILED,
   error,
   starter
 })
+
 export const api_v1_gfdhgf_update = data => ({
   type: types.API_V1_GFDHGF_UPDATE,
   data
 })
+
 export const api_v1_gfdhgf_updateSucceeded = (response, starter) => ({
   type: types.API_V1_GFDHGF_UPDATE_SUCCEEDED,
   response,
   starter
 })
+
 export const api_v1_gfdhgf_updateFailed = (error, starter) => ({
   type: types.API_V1_GFDHGF_UPDATE_FAILED,
   error,
   starter
 })
+
 export const api_v1_gfdhgf_partial_update = data => ({
   type: types.API_V1_GFDHGF_PARTIAL_UPDATE,
   data
 })
+
 export const api_v1_gfdhgf_partial_updateSucceeded = (response, starter) => ({
   type: types.API_V1_GFDHGF_PARTIAL_UPDATE_SUCCEEDED,
   response,
   starter
 })
+
 export const api_v1_gfdhgf_partial_updateFailed = (error, starter) => ({
   type: types.API_V1_GFDHGF_PARTIAL_UPDATE_FAILED,
   error,
   starter
 })
+
 export const api_v1_gfdhgf_delete = () => ({ type: types.API_V1_GFDHGF_DELETE })
 export const api_v1_gfdhgf_deleteSucceeded = (response, starter) => ({
   type: types.API_V1_GFDHGF_DELETE_SUCCEEDED,
   response,
   starter
 })
+
 export const api_v1_gfdhgf_deleteFailed = (error, starter) => ({
   type: types.API_V1_GFDHGF_DELETE_FAILED,
   error,
