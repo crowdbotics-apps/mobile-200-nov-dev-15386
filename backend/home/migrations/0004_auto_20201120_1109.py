@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0003_gfdhgf'),
+        ("home", "0003_gfdhgf"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='gfdhgf',
-            name='bvcbcbvc7678687868786',
+            model_name="gfdhgf",
+            name="bvcbcbvc7678687868786",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='gfdhgf',
-            name='jnhg756',
+            model_name="gfdhgf",
+            name="jnhg756",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
