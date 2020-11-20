@@ -19,6 +19,28 @@ function api_v1_customtext_partial_update(action) {
     data: action.data
   })
 }
+function api_v1_gfdhgf_list(action) {
+  return mobilenovAPI.get(`/api/v1/gfdhgf/`)
+}
+function api_v1_gfdhgf_create(action) {
+  return mobilenovAPI.post(`/api/v1/gfdhgf/`, null, { data: action.data })
+}
+function api_v1_gfdhgf_read(action) {
+  return mobilenovAPI.get(`/api/v1/gfdhgf/${action.id}/`)
+}
+function api_v1_gfdhgf_update(action) {
+  return mobilenovAPI.put(`/api/v1/gfdhgf/${action.id}/`, null, {
+    data: action.data
+  })
+}
+function api_v1_gfdhgf_partial_update(action) {
+  return mobilenovAPI.patch(`/api/v1/gfdhgf/${action.id}/`, null, {
+    data: action.data
+  })
+}
+function api_v1_gfdhgf_delete(action) {
+  return mobilenovAPI.delete(`/api/v1/gfdhgf/${action.id}/`)
+}
 function api_v1_homepage_list(action) {
   return mobilenovAPI.get(`/api/v1/homepage/`)
 }
@@ -89,6 +111,12 @@ export const apiService = {
   api_v1_customtext_read,
   api_v1_customtext_update,
   api_v1_customtext_partial_update,
+  api_v1_gfdhgf_list,
+  api_v1_gfdhgf_create,
+  api_v1_gfdhgf_read,
+  api_v1_gfdhgf_update,
+  api_v1_gfdhgf_partial_update,
+  api_v1_gfdhgf_delete,
   api_v1_homepage_list,
   api_v1_homepage_read,
   api_v1_homepage_update,

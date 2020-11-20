@@ -28,6 +28,42 @@ export default function apiReducer(state = initialState, action) {
       return Object.assign({}, state, {
         mobilenovAPI: [...state.mobilenovAPI, action.response]
       })
+    case types.API_V1_GFDHGF_LIST:
+    case types.API_V1_GFDHGF_LIST_SUCCEEDED:
+    case types.API_V1_GFDHGF_LIST_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_GFDHGF_CREATE:
+    case types.API_V1_GFDHGF_CREATE_SUCCEEDED:
+    case types.API_V1_GFDHGF_CREATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_GFDHGF_READ:
+    case types.API_V1_GFDHGF_READ_SUCCEEDED:
+    case types.API_V1_GFDHGF_READ_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_GFDHGF_UPDATE:
+    case types.API_V1_GFDHGF_UPDATE_SUCCEEDED:
+    case types.API_V1_GFDHGF_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_GFDHGF_PARTIAL_UPDATE:
+    case types.API_V1_GFDHGF_PARTIAL_UPDATE_SUCCEEDED:
+    case types.API_V1_GFDHGF_PARTIAL_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_GFDHGF_DELETE:
+    case types.API_V1_GFDHGF_DELETE_SUCCEEDED:
+    case types.API_V1_GFDHGF_DELETE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
     case types.API_V1_HOMEPAGE_LIST:
     case types.API_V1_HOMEPAGE_LIST_SUCCEEDED:
     case types.API_V1_HOMEPAGE_LIST_FAILED:
