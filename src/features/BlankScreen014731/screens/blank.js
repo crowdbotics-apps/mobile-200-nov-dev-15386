@@ -23,7 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { TextInput_3: "" }
+  state = { TextInput_3: "jhgjhgjgjgj" }
 
   render = () => (
     <View>
@@ -43,6 +43,10 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: {},
+  Text_2: { alignSelf: "flex-end" },
+  TextInput_3: { width: 100, alignSelf: "flex-end" },
   View_1: {},
   Text_2: { alignSelf: "flex-end" },
   TextInput_3: { width: 100, alignSelf: "flex-end" }
