@@ -49,5 +49,8 @@ const styles = StyleSheet.create({
   TextInput_3: { width: 100, alignSelf: "flex-end" },
   View_1: {},
   Text_2: { alignSelf: "flex-end" },
-  TextInput_3: { width: 100, alignSelf: "flex-end" }
+  TextInput_3: { width: 100, alignSelf: "flex-end" },
+  View_1: {},
+  Text_2: { alignSelf: "flex-end" },
+  TextInput_3: { width: 100, alignSelf: "flex-end", textAlign: "right" }
 })
